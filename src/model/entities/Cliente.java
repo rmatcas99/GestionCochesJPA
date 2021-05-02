@@ -13,6 +13,11 @@ import java.util.List;
 @Entity
 @NamedQuery(name="Cliente.findAll", query="SELECT c FROM Cliente c")
 public class Cliente implements Serializable {
+	@Override
+	public String toString() {
+		return dniNie;
+	}
+
 	private static final long serialVersionUID = 1L;
 
 	@Id

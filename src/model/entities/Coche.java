@@ -98,4 +98,11 @@ public class Coche implements Serializable {
 		return venta;
 	}
 
+	@Override
+	public String toString() {
+		return bastidor;
+	}
+	
+	
+
 }

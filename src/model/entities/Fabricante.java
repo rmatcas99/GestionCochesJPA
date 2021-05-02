@@ -75,4 +75,10 @@ public class Fabricante implements Serializable {
 		return coch;
 	}
 
+	@Override
+	public String toString() {
+		return cif;
+	}
+
+	
 }
